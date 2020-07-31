@@ -3,7 +3,7 @@ package helpers
 import (
 	"bytes"
 	"fmt"
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"os"
 	"os/exec"
 	"path/filepath"
