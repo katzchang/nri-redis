@@ -11,6 +11,8 @@ WORKDIR         := $(shell pwd)
 TARGET          := target
 TARGET_DIR       = $(WORKDIR)/$(TARGET)
 
+export GO111MODULE := on
+
 all: build
 
 build: clean validate-deps validate compile test
